@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 Bear in mind that the [GIT version](https://github.com/caseyjhol/node-red-contrib-tplink) *(source-code)* is always bleeding edge and may *(in most cases, will)* have changes that won't reflect in NPM/[release](https://github.com/caseyjhol/node-red-contrib-tplink/releases) version.
 
+## 1.0.1 (2022-12-28)
+
+### Changed
+
+- Correct documentation for startMeterEvents (https://github.com/caseyjhol/node-red-contrib-tplink/pull/59)
+
+### Fixed
+
+- Allow bulb to return to HSB mode from temperature mode (https://github.com/caseyjhol/node-red-contrib-tplink/pull/66)
+- Resolve "Node Object is not a node-red Node Stack" error (https://github.com/caseyjhol/node-red-contrib-tplink/issues/64)
+
 ## 1.0.0 (2020-09-13)
 
 ### Changed
