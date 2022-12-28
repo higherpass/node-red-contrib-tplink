@@ -332,7 +332,7 @@ module.exports = function (RED) {
             }
           })
         )
-        .catch(node.error)
+        .catch(err => { node.error(err) })
     }
 
     // For each device, an event proxy system is set up that maps the underlying
